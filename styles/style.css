@@ -103,18 +103,20 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 40px;
   margin: 0px;
 }
 
 .subtitulo {
-  font-size: 16px;
+  font-size: 20px;
   margin: 18px 0 18px 0;
 }
 
 .iconos-redes > a {
   text-decoration: none;
+  font-size: 30px;
   color: var(--color-terciary);
+  margin-bottom: 10px;
 }
 
 .boton {
@@ -122,9 +124,9 @@ h2 {
   font-weight: bold;
   background-color: rgb(250, 249, 249);
   border-radius: 100px;
-  margin: 10px 90px;
+  margin: auto;
   height: 40px;
-  width: 100px;
+  width: 120px;
   text-decoration: none;
   color: var(--color-terciary);
   display:flex;
@@ -392,13 +394,12 @@ h4 {
 }
 
 .works-container__topics__card:hover > .works-container__topics__card__mask > p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   color: var(--color-terciary)
 }
 
 .works-container__topics__card:hover > .works-container__topics__card__mask > a {
-  text-align: center;
   text-decoration: none;
   font-size: 30px;
   color: var(--color-terciary);
@@ -411,7 +412,7 @@ h4 {
   padding: 5px;
   font-size: 20px;
   font-weight: 300;
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 2px;
 }
 
@@ -421,7 +422,12 @@ h4 {
   align-items: center;
 }
 
-/*
+.boton-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .boton-portfolio  { 
   font-size: 16px;
   font-weight: bold;
@@ -435,7 +441,6 @@ h4 {
   justify-content: center;
   align-items: center; 
 }
-*/
 
 /*PAGE PORTFOLIO*/
 
