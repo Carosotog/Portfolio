@@ -1,2 +1,2 @@
 # Portfolio
-Web Designer / Frontend Developer
+UX UI Designer / Frontend Developer
